@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Криптографические методы</string>
+    <string-array name="Spinner_items_Caesar">
+        <item>Русский алфавит</item>
+        <item>Русский алфавит с цифрами</item>
+        <item>Английский алфавит</item>
+        <item>Английский алфавит с цифрами</item>
+    </string-array>
+    <string-array name="Spinner_items_Playfair">
+        <item>Русский алфавит (без ё)</item>
+        <item>Английский алфавит (без J)</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

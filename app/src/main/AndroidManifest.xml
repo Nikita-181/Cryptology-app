@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cryptographicmethods">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CryptographicMethods">
+        <activity
+            android:name=".curvePoints"
+            android:exported="false" />
+        <activity
+            android:name=".KR"
+            android:exported="false" />
+        <activity
+            android:name=".n_x_n"
+            android:exported="false" />
+        <activity
+            android:name=".China"
+            android:exported="false" />
+        <activity
+            android:name=".Secret_sharing_schemes"
+            android:exported="false" />
+        <activity
+            android:name=".TEST"
+            android:exported="false" />
+        <activity
+            android:name=".Laboratory_work_6"
+            android:exported="false" />
+        <activity
+            android:name=".Kripto"
+            android:exported="false" />
+        <activity
+            android:name=".Laboratory_work_5"
+            android:exported="false" />
+        <activity
+            android:name=".Laboratory_work_4"
+            android:exported="true" />
+        <activity
+            android:name=".Laboratory_work_3"
+            android:exported="true" />
+        <activity
+            android:name=".Laboratory_work_2"
+            android:exported="true" />
+        <activity
+            android:name=".Laboratory_work_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
